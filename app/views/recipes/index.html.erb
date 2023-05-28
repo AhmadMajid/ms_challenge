@@ -1,0 +1,10 @@
+<h1>Recipes</h1>
+
+<ul>
+  <% @recipes.each_with_index do |recipe, i| %>
+    <li>
+      <%= link_to recipe.fields[:title], recipe_path(recipe) %>
+      <%= image_tag recipe.fields[:photo].url %>
+    </li>
+  <% end %>
+</ul>

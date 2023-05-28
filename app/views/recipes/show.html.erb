@@ -1,0 +1,9 @@
+<h1><%= @recipe.fields[:title] %></h1>
+
+<%= image_tag @recipe.fields[:photo].url %>
+
+<p><strong>Tags:</strong> <%= @recipe.fields[:tags].present? ? @recipe.fields[:tags].join(', ') : 'None' %></p>
+
+<%= markdown @recipe.fields[:description] %>
+
+<p><strong>Chef:</strong> <%= @recipe.fields[:chef].present? ? @recipe.fields[:chef].fields[:name] : 'Unknown' %></p>
