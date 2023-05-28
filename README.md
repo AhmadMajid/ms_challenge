@@ -1,6 +1,6 @@
-# marley_spoon_challenge
+# ms_challenge
 
-Tech test for Marley Spoon
+Tech test for MS, please see localhost:3000/recipes for the recipes index.
 
 ## Installation
 
@@ -12,7 +12,7 @@ To install and set up this project, follow these steps:
 4. Set up the database by running `bundle exec rails db:create` and `bundle exec rails db:migrate db:test:prepare`.
 5. Start the server by running `rails server`.
 
-Once you've completed these steps, you should be able to access the application by navigating to `http://localhost:3000` in your web browser.
+Once you've completed these steps, you should be able to access the application by navigating to `http://localhost:3000/recipes` in your web browser.
 
 ## Notes
 
